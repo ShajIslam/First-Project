@@ -1,6 +1,11 @@
 *{
     margin: 0px;
     padding: opx;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logos{
+    height: 35px;
+    width: 170px;
 }
 
 .main-container{
@@ -19,4 +24,46 @@
 }
 .item{
     margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
 }
+.item:hover{
+    color:grey;
+
+}
+.image{
+    width: 400px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("Images/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.banner-text{
+    padding-left: 50px;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 18px;
+    
+}
+.button1{
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+.button1:hover{
+    background-color: tomato;
+}
+
